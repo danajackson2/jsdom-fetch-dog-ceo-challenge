@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
         array.forEach(function (url) {
             let i = document.createElement('img')
             i.src = url
+            // i.style.width = "350px"
             document.querySelector("#dog-image-container").appendChild(i)
         })
     }
